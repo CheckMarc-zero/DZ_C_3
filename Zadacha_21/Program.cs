@@ -6,13 +6,13 @@ double sum = 0;
 
 for (int i = 0; i<=2; i++)
 {
-    sum = sum + (B[i]-A[i])*(B[i]-A[i]);
+    sum = sum + ((B[i]-A[i])*(B[i]-A[i]));
 }
 
 double dlinnaAB = Math.Sqrt(sum);
 
 Console.Write("Расстояние между А и В равно ");
-Console.WriteLine(sum);
+Console.WriteLine(dlinnaAB);
 
 
 int insertNumber(string massege)
